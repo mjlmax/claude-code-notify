@@ -270,6 +270,10 @@ You might think "just tell Claude to play a sound when it's done" in CLAUDE.md. 
 
 Anything that must happen 100% of the time belongs in a hook, not a prompt.
 
+## Contact
+
+WeChat: `mjlmax` (add as friend, note: GitHub)
+
 ## License
 
 MIT
