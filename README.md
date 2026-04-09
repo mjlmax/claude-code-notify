@@ -1,5 +1,7 @@
 # claude-code-notify
 
+**English** | [中文](README.zh-CN.md)
+
 Windows desktop notifications for [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Get notified when tasks complete or need your input — never waste time switching back to check again.
 
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%2F11-0078D6?logo=windows)
