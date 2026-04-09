@@ -1,0 +1,13 @@
+{
+  "name": "claude-code-notify",
+  "version": "1.0.0",
+  "description": "Windows desktop toast notifications for Claude Code — get notified when tasks complete or need your input, with one-click focus switch to VS Code.",
+  "author": {
+    "name": "mjlmax"
+  },
+  "repository": "https://github.com/mjlmax/claude-code-notify",
+  "license": "MIT",
+  "keywords": ["notification", "toast", "windows", "hooks", "productivity"],
+  "hooks": "./hooks/hooks.json",
+  "commands": ["./commands"]
+}

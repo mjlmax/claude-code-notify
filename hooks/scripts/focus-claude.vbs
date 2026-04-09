@@ -1,0 +1,1 @@
+CreateObject("WScript.Shell").Run "pwsh -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File """ & CreateObject("Scripting.FileSystemObject").GetParentFolderName(WScript.ScriptFullName) & "\focus-claude.ps1""", 0, False

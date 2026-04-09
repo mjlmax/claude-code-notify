@@ -1,0 +1,26 @@
+{
+  "Stop": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "pwsh -NoProfile -ExecutionPolicy Bypass -File \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/notify.ps1\" -Title \"Claude Task Done\" -Message \"Task completed. Waiting for your input.\"",
+          "timeout": 15
+        }
+      ]
+    }
+  ],
+  "Notification": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "pwsh -NoProfile -ExecutionPolicy Bypass -File \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/notify.ps1\" -Title \"Claude Needs Input\" -Message \"Claude is waiting for your confirmation.\"",
+          "timeout": 15
+        }
+      ]
+    }
+  ]
+}
